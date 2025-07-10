@@ -1,9 +1,11 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; 
 }
-
+body{
+    background-color: #f5f8ff;
+}
 /* common style */
 
 .raleway-font {
@@ -19,6 +21,8 @@
 
 .main-width {
     max-width: 1140px;
+    margin: 0 auto;
+    
 }
 
 header {
@@ -71,4 +75,48 @@ nav .btn {
     margin-top: 37px;
     color: #FFFFFF;
     border: none;
+}
+
+main{}
+
+/* Action section tyle */
+.action-Section {
+    display: flex;
+    margin-top: 116px;
+    margin-bottom: 116px;
+    justify-content: space-between;
+    align-items: center;
+}
+.action-Section .left{
+    max-width: 517px;
+}
+
+.action-Section .left h1{
+    font-size: 42px;
+    font-style: bold;
+    color: #252432;
+    
+}
+.action-Section .left p{
+    font-size: 24px;
+    color: rgba(37, 36, 50, 0.5);
+    margin: 23px 0px;
+    font-weight: 400;
+    
+
+}
+.action-Section .left button{
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    max-width: 229px;
+    padding: 12px 36px;
+    font-style: bold;
+
+}
+.action-Section .right img{
+    border-radius: 48px;
+
+
 }
