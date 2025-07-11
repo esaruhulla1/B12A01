@@ -1,12 +1,17 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
-body{
+
+body {
     background-color: #f5f8ff;
 }
+
 /* common style */
+.tborder {
+    border: 1px red solid;
+}
 
 .raleway-font {
     font-family: "Raleway", sans-serif;
@@ -22,13 +27,13 @@ body{
 .main-width {
     max-width: 1140px;
     margin: 0 auto;
-    
+
 }
 
 header {
     background-image: url(./Assets/Hero-bg.png);
-    
-    
+
+
 }
 
 /* Nav style here */
@@ -53,7 +58,7 @@ nav .btn {
     padding: 12px 36px;
     border-radius: 10px;
 
-    
+
 }
 
 /* Banner style */
@@ -63,11 +68,13 @@ nav .btn {
     text-align: center;
     padding: 158px 0px 200px 0px;
 }
-.banner h1{
+
+.banner h1 {
     font-size: 65px;
     font-weight: 900;
 }
-.banner button{
+
+.banner button {
     font-size: 16px;
     background-color: #4E47FF;
     border-radius: 10px;
@@ -77,7 +84,7 @@ nav .btn {
     border: none;
 }
 
-main{}
+main {}
 
 /* Action section tyle */
 .action-Section {
@@ -87,25 +94,28 @@ main{}
     justify-content: space-between;
     align-items: center;
 }
-.action-Section .left{
+
+.action-Section .left {
     max-width: 517px;
 }
 
-.action-Section .left h1{
+.action-Section .left h1 {
     font-size: 42px;
     font-style: bold;
     color: #252432;
-    
+
 }
-.action-Section .left p{
+
+.action-Section .left p {
     font-size: 24px;
     color: rgba(37, 36, 50, 0.5);
     margin: 23px 0px;
     font-weight: 400;
-    
+
 
 }
-.action-Section .left button{
+
+.action-Section .left button {
     background-color: #4E47FF;
     color: #FFFFFF;
     border-radius: 10px;
@@ -115,111 +125,133 @@ main{}
     font-style: bold;
 
 }
-.action-Section .right img{
+
+.action-Section .right img {
     border-radius: 48px;
-}                  
+}
+
 /* productive-Users-Section style */
-.productive-Users-Section{
+.productive-Users-Section {
     padding: 50px 80px;
     background-color: #e6e8ff;
     border-radius: 24px;
-    
+
 }
-.productive-Users-Section .title{
+
+.productive-Users-Section .title {
     text-align: center;
     font-size: 38px;
     font-style: bold;
     padding-bottom: 40px;
 }
-.item-container{
+
+.item-container {
     display: flex;
     justify-content: space-between;
 }
+
 .item h1 {
     font-size: 80px;
     color: #4E47FF;
     font-style: bold;
 }
-.item p{
+
+.item p {
     font-size: 20px;
     text-align: center;
     color: #737480;
 }
+
 /* fedback section style */
-.feedback-Section{
+.feedback-Section {
     margin-top: 137px;
     margin-bottom: 137px;
 }
+
 .fedback-heading {
     text-align: center;
     font-size: 42px;
     font-style: bold;
     padding-bottom: 50px;
 }
-.card-container{
+
+.card-container {
     display: flex;
     justify-content: space-between;
     gap: 20px;
 }
-.card-item{
+
+.card-item {
     background-color: #fafcff;
     padding: 24px;
     border-radius: 14px;
 }
 
-.title-subtitle{
+.title-subtitle {
     padding: 24px 0px;
 }
-.title-subtitle h2{
+
+.title-subtitle h2 {
     margin-bottom: 8px;
     font-weight: 600;
 }
-.title-subtitle p{
+
+.title-subtitle p {
     color: #1e1e1e;
     font-size: 20px;
     font-weight: 500;
 }
-.reviewer{
+
+.reviewer {
     /* border: 1px solid red; */
     display: flex;
     gap: 12px;
 }
-.left-img img{
+
+.left-img img {
     border-radius: 50%;
 }
-.right-text{
+
+.right-text {
     line-height: 1.5;
     color: #757575;
 }
-.right-text h5{
+
+.right-text h5 {
     font-size: 18px;
-} 
-.right-text h6{
+}
+
+.right-text h6 {
     font-size: 15px;
     font-weight: 500;
     color: #b3b3b3;
 }
+
 /* focous-section style */
-.focous-section{
+.focous-section {
     padding: 71px 150px;
     background-color: #FFFFFF;
     border-radius: 14px;
 }
-.top-section{
+
+.top-section {
     text-align: center;
 }
-.top-section h1{
+
+.top-section h1 {
     padding-bottom: 20px;
     font-size: 50px;
 }
-.top-section p{
+
+.top-section p {
     padding-bottom: 20px;
     font-size: 20px;
     font-weight: 500;
     color: #808080;
     letter-spacing: 1px;
 }
-.top-section button{
+
+.top-section button {
     margin: 20px;
     background-color: #4E47FF;
     padding: 12px 36px;
@@ -229,6 +261,53 @@ main{}
     font-size: 20px;
 }
 
-.bottom-section img{
+.bottom-section img {
     border-radius: 48px;
+}
+
+/* Touch section */
+.touch-Section {
+    padding-top: 71px;
+    padding-bottom: 71px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+
+}
+
+.left-side h1 {
+    font-size: 97px;
+    max-width: 530px;
+}
+
+form {
+    width: 500px;
+}
+
+form input {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 20px 32px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+
+}
+
+form textarea {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 20px 32px;
+    font-size: 20px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+form button {
+    width: 100%;
+    padding: 19px 101px;
+    background-color: #4E47FF;
+    border-radius: 10px;
+    color: #f5f8ff;
+    font-size: 16px;
 }
