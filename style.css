@@ -9,6 +9,8 @@ body {
 }
 
 /* common style */
+
+
 .tborder {
     border: 1px red solid;
 }
@@ -71,7 +73,8 @@ nav .btn {
 
 .banner h1 {
     font-size: 65px;
-    font-weight: 900;
+    font-weight: 700;
+    color: #252432;
 }
 
 .banner button {
@@ -218,7 +221,7 @@ main {}
 }
 
 .right-text h5 {
-    font-size: 18px;
+    font-size: 17px;
 }
 
 .right-text h6 {
@@ -245,7 +248,7 @@ main {}
 
 .top-section p {
     padding-bottom: 20px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     color: #808080;
     letter-spacing: 1px;
@@ -298,7 +301,7 @@ form textarea {
     margin-bottom: 20px;
     margin-top: 10px;
     padding: 20px 32px;
-    font-size: 20px;
+    font-size: 15px;
     width: 100%;
     border-radius: 10px;
 }
@@ -310,4 +313,50 @@ form button {
     border-radius: 10px;
     color: #f5f8ff;
     font-size: 16px;
+}
+/* Footer section style here */
+.footer-Section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+.footer-Section h1{
+    font-size: 100px;
+    color: #4E47FF;
+    margin-top: 108px;
+    margin-bottom: 8px;
+}
+.footer-Section p{
+    max-width: 531px;
+    color: #8987a1;
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+.list {
+    padding-bottom:103px;
+}
+.list ul {
+    display: flex;
+    gap: 48px;
+}
+.list ul li{
+    list-style: none;
+    
+
+
+}
+.list ul li a{
+    text-decoration: none;
+    color:  #8987a1;
+    
+    
+}
+/* button hover */
+button:hover{
+    background-color: #47acff;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.3s;
 }
