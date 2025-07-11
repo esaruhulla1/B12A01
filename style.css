@@ -117,6 +117,31 @@ main{}
 }
 .action-Section .right img{
     border-radius: 48px;
-
-
+}                  
+/* productive-Users-Section style */
+.productive-Users-Section{
+    padding: 50px 80px;
+    background-color: #e6e8ff;
+    border-radius: 24px;
+    
+}
+.productive-Users-Section .title{
+    text-align: center;
+    font-size: 38px;
+    font-style: bold;
+    padding-bottom: 40px;
+}
+.item-container{
+    display: flex;
+    justify-content: space-between;
+}
+.item h1 {
+    font-size: 80px;
+    color: #4E47FF;
+    font-style: bold;
+}
+.item p{
+    font-size: 20px;
+    text-align: center;
+    color: #737480;
 }
