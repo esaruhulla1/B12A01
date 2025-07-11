@@ -199,3 +199,36 @@ main{}
     font-weight: 500;
     color: #b3b3b3;
 }
+/* focous-section style */
+.focous-section{
+    padding: 71px 150px;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+}
+.top-section{
+    text-align: center;
+}
+.top-section h1{
+    padding-bottom: 20px;
+    font-size: 50px;
+}
+.top-section p{
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #808080;
+    letter-spacing: 1px;
+}
+.top-section button{
+    margin: 20px;
+    background-color: #4E47FF;
+    padding: 12px 36px;
+    border-radius: 14px;
+    border: none;
+    color: #f5f8ff;
+    font-size: 20px;
+}
+
+.bottom-section img{
+    border-radius: 48px;
+}
